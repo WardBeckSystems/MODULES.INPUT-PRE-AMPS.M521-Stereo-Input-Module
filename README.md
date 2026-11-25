@@ -5,12 +5,12 @@ Ward-Beck Systems M521, 1985|18. Wiki page: [M521 on WBSps.ca](https://wardbecks
 | Folder | What is in it | Files |
 |---|---|---|
 | [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 35 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 6 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 3 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 58 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 0 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 8 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 4 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 60 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 72 |
 
 ## Mechanical
@@ -32,7 +32,7 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 
 Shared privately on Google Drive (opens after sign-in): [1985|18 · 020 - Functional](https://drive.google.com/file/d/0B0yR0b5T78SKQ0VIYzI4UVQzTE0/view?resourcekey=0-JSRdfZikcgvSXXPew1s2tQ) · [1985|18 · B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC](https://drive.google.com/file/d/0B0yR0b5T78SKaFdpTnZnVDF2UW8/view?resourcekey=0-psXB2oMsQyaeyqKf6JU6-w)
 
-Not on Google Drive yet: `19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC.jpg`, `19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg`
+Not on Google Drive yet: `19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC.jpg`
 
 ## Pinouts
 
@@ -80,7 +80,7 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 
 Shared privately on Google Drive (opens after sign-in): [1985|18 · 017](https://drive.google.com/file/d/0B0yR0b5T78SKblZUeGRWcDZCMkU/view?resourcekey=0-35OSpf1XpzkZFJwsFJKyZg) · [1985|18 · 021](https://drive.google.com/file/d/0B0yR0b5T78SKOFgyb2JZclMwX1E/view?resourcekey=0-M95AtlcQ5xgNiyql58Hjnw) · [1985|18 · 028](https://drive.google.com/file/d/0B0yR0b5T78SKNURER0pNbkdwX3c/view?resourcekey=0-vbtJuMmoP29To5kDCqXeGA)
 
-Not on Google Drive yet: `M521 - 001.jpg`
+Not on Google Drive yet: `19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg`, `M521 - 001.jpg`
 
 ## KiCad
 
@@ -94,6 +94,11 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.kicad_sch](KICAD/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%203.kicad_sch)
 - [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC.kicad_sch](KICAD/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.kicad_sch)
 - [M521.kicad_sym](KICAD/M521.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [index.html](SOFTWARE/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)

@@ -37,7 +37,7 @@ Ztzzz 33 23 2 2? 28 32 83333 82232 23 2 2 3 22222 | 4 6 98 3 1 { 1 ^ : 1 3 88-0 
 
 ```json
 {
- "file": "Modules/INPUT-PRE-AMPS/M521/SCHEMATICS/19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg",
+ "file": "Modules/INPUT-PRE-AMPS/M521/MANUALS/19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg",
  "sha256": "418b7153b8e96026fd14a080c59f4635ecb09d4b3807843ce4ed584b18d2a8ee",
  "kind": "module",
  "models": [

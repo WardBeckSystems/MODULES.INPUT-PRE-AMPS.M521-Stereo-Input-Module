@@ -32,7 +32,7 @@ M521 stereo input module schematic, title block at bottom left reading sideways.
 - **Closed boxes:** 36
 - **Wiring (first pass):** 177 connected wire groups from 1,065 runs
 
-Every curve, box, word and wire group: [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](../SCHEMATICS/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20(traced).json) (the CAD file: `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](../SCHEMATICS/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
 
 ## Full text
 

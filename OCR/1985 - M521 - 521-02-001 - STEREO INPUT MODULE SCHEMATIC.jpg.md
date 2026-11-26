@@ -22,7 +22,7 @@ Wiki page: [M521](../../../../PAGES/M521.md)
 - **Closed boxes:** 36
 - **Wiring (first pass):** 177 connected wire groups from 1,034 runs
 
-Every curve, box, word and wire group: [1985 - M521 - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M521 - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M521 - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-02-001 - STEREO INPUT MODULE SCHEMATIC (traced).dxf`).
 
 ## Full text
 

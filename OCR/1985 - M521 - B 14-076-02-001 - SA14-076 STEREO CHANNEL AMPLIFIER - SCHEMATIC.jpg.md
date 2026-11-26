@@ -23,7 +23,7 @@ Wiki page: [M521](../../../../PAGES/M521.md)
 - **Dots (junctions):** 2
 - **Wiring (first pass):** 94 connected wire groups from 731 runs
 
-Every curve, box, word and wire group: [1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20B%2014-076-02-001%20-%20SA14-076%20STEREO%20CHANNEL%20AMPLIFIER%20-%20SCHEMATIC%20(traced).json) (the CAD file: `1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20B%2014-076-02-001%20-%20SA14-076%20STEREO%20CHANNEL%20AMPLIFIER%20-%20SCHEMATIC%20%28traced%29.json) (the CAD file: `1985 - M521 - B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC (traced).dxf`).
 
 ## Full text
 

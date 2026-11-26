@@ -23,7 +23,7 @@ Wiki page: [M521](../../../../PAGES/M521.md)
 - **Dots (junctions):** 2
 - **Wiring (first pass):** 221 connected wire groups from 867 runs
 
-Every curve, box, word and wire group: [1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-01-001%20-%20AUX%20PRE-PCST%20AUX%20AUX%20AUX%20(traced).json) (the CAD file: `1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-01-001%20-%20AUX%20PRE-PCST%20AUX%20AUX%20AUX%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-01-001 - AUX PRE-PCST AUX AUX AUX (traced).dxf`).
 
 ## Full text
 

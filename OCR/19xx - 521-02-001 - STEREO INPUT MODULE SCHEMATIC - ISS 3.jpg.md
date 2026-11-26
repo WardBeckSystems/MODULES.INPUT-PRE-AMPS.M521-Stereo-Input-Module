@@ -34,7 +34,7 @@ M521 stereo input module schematic, title block at bottom left reading sideways.
 - **Dots (junctions):** 1
 - **Wiring (first pass):** 148 connected wire groups from 1,170 runs
 
-Every curve, box, word and wire group: [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3 (traced).json](../SCHEMATICS/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%203%20(traced).json) (the CAD file: `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3 (traced).dxf`).
+Every curve, box, word and wire group: [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3 (traced).json](../SCHEMATICS/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%203%20%28traced%29.json) (the CAD file: `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3 (traced).dxf`).
 
 ## Full text
 

@@ -21,7 +21,7 @@ Wiki page: [M521](../../../../PAGES/M521.md)
 - **Closed boxes:** 21
 - **Dots (junctions):** 4
 
-Every curve, box, word and wire group: [1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-06-001%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20(traced).json) (the CAD file: `1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-06-001%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
 
 ## Full text
 

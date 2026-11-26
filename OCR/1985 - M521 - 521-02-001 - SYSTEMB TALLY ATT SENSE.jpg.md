@@ -23,7 +23,7 @@ Wiki page: [M521](../../../../PAGES/M521.md)
 - **Dots (junctions):** 1
 - **Wiring (first pass):** 154 connected wire groups from 1,175 runs
 
-Every curve, box, word and wire group: [1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-02-001%20-%20SYSTEMB%20TALLY%20ATT%20SENSE%20(traced).json) (the CAD file: `1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).dxf`).
+Every curve, box, word and wire group: [1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).json](../SCHEMATICS/1985%20-%20M521%20-%20521-02-001%20-%20SYSTEMB%20TALLY%20ATT%20SENSE%20%28traced%29.json) (the CAD file: `1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE (traced).dxf`).
 
 ## Full text
 

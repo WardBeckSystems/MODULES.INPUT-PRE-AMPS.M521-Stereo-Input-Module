@@ -13,6 +13,47 @@ Ward-Beck Systems M521, 1985|18. Wiki page: [M521 on WBSps.ca](https://wardbecks
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 72 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [4 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1985 - M521 - 006.jpg](MANUALS/1985%20-%20M521%20-%20006.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Input sensitivity** | -10 to +10 dBm (ref. 600 ohm source) |
+| **Frequency response** | +/-0.25 dB from 30 Hz to 20 kHz |
+| **Noise** | Greater than 75 to 80 dB signal to noise ratio for input sensitivities of -10 to +10 dBm. |
+| **Harmonic distortion** | Less than 0.25% from 30 Hz to 20 kHz at 24 dBm output levels or less Less than 0.19 at kHz at +24 dBm output. |
+| **Source impedance** | 600 ohms or less balanced |
+| **Input impedances** | 30,000 ohms or greater |
+| **Output impedances** | Less than 100 ohms at insert and direct outputs |
+| **Load impedances** | 600 ohms balanced (at insertion point) 5000 ohms balanced (at direct outputs) |
+| **Output levels** | dBm nominal, +26 dBm maximum |
+| **Channel separation** | 60 dB |
+| **Phasing** | Low number or numbered terminals of the input pair is in phase with the similar terminals of the output pair. |
+| **Power requirements** | +/-25 volts dc, 100 mA nominal, 185 mA maximum. +12 volts dc, 50 mA |
+| **Ambient temperature** | to 60 degrees Celsius |
+| **Dimensions** | 1.60&quot; wide 14.15&quot; high 6.50&quot; deep (41 mm 360 mm 165 mm) Ibs oz (1.14 kg) net |
+
+## Circuit description
+
+From [1985 - M521 - 038.jpg](MANUALS/1985%20-%20M521%20-%20038.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+**5A14-077 CONTROL ASSEMBLY**
+
+The 5A14-077 is an interface control assembly between the St console r microprocessor based control system and the m520 series of input and submaster modules Channel/Solo_ Latches
+
+Dual Latch U1 provides the holding or Latching circuitry to control the solid state program channel and solo SW | tches of the M520 series of modules The Latch outputs are buffered by transistor drivers Q1 through 04 The Latch maybe controlled by positive toggle voltage applied to P2 pin for the solo and P2 pin for the channel or program circuit. Pulsing these control inputs will result in the Latches alternately being set and cleared The Latch UIA and UIB maybe directly set or cleared from the control system Via pulses fed through C4 to C7 _ These controlling signals are held by the data bus Latch u7 _ Data Bus An bit data bus is connected to the input modules, for the purpose of feeding control signals or reading tally information. This data bus connects to the 5A14-077 at P1 pins to 15_ select Line at P1 pin and read/write control Line at P1 pin controls the flow of data to and from this assembly Tally_Buffers u5 and u6 are tally buffers which feed information from the input module pushbutton selectors and sense points onto the data bus upon command from the central control system Control Latch u7 is control Latch which feeds control pulses to remotely turn on and off the channel and solo solid state switches upon command from the central control system. ?ower_Decoupl ing This assembly utilizes low power cMOS circuitry throughout. ReguLator u8 decouples the unregulated +10 to +12 volt logic supply voltage down to +5 volts to operate the integrated circu ts
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._

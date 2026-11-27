@@ -1,0 +1,20 @@
+{
+ "module": "M521",
+ "source": {
+  "file": "MANUALS/1985 - M521 - 038.jpg",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.96,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": "5A14-077 CONTROL ASSEMBLY",
+   "paragraphs": [
+    "The 5A14-077 is an interface control assembly between the St console r microprocessor based control system and the m520 series of input and submaster modules Channel/Solo_ Latches",
+    "Dual Latch U1 provides the holding or Latching circuitry to control the solid state program channel and solo SW | tches of the M520 series of modules The Latch outputs are buffered by transistor drivers Q1 through 04 The Latch maybe controlled by positive toggle voltage applied to P2 pin for the solo and P2 pin for the channel or program circuit. Pulsing these control inputs will result in the Latches alternately being set and cleared The Latch UIA and UIB maybe directly set or cleared from the control system Via pulses fed through C4 to C7 _ These controlling signals are held by the data bus Latch u7 _ Data Bus An bit data bus is connected to the input modules, for the purpose of feeding control signals or reading tally information. This data bus connects to the 5A14-077 at P1 pins to 15_ select Line at P1 pin and read/write control Line at P1 pin controls the flow of data to and from this assembly Tally_Buffers u5 and u6 are tally buffers which feed information from the input module pushbutton selectors and sense points onto the data bus upon command from the central control system Control Latch u7 is control Latch which feeds control pulses to remotely turn on and off the channel and solo solid state switches upon command from the central control system. ?ower_Decoupl ing This assembly utilizes low power cMOS circuitry throughout. ReguLator u8 decouples the unregulated +10 to +12 volt logic supply voltage down to +5 volts to operate the integrated circu ts"
+   ]
+  }
+ ]
+}

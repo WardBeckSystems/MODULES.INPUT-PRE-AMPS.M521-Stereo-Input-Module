@@ -1,62 +1,844 @@
 {
  "code": "M521",
  "connector": "RTO-144",
- "type": "Sterio Input Module Connector Layout",
+ "type": null,
  "series": null,
- "contacts": "22 contacts, 35 contacts (P1)",
+ "connectors": [
+  {
+   "name": "P2",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z opposite 1-22",
+   "view": "bottom (handwritten: REVERSE IMAGE [BOTTOM VIEW])",
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": true,
- "variant_of": "M521A",
+ "built_from": {
+  "pictures": [
+   "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
  "pins": [
   {
+   "connector": "P2",
+   "pin": "1",
+   "ref": "1",
+   "also": "A",
+   "same_row": null,
+   "signal": "INSERT OUT L -",
+   "kind": "insert_send",
+   "port": "INSERT OUT L",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "2",
+   "ref": "2",
+   "also": "B",
+   "same_row": null,
+   "signal": "INSERT OUT R -",
+   "kind": "insert_send",
+   "port": "INSERT OUT R",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "3",
+   "ref": "3",
+   "also": "C",
+   "same_row": null,
+   "signal": "INSERT PREFADE L -",
+   "kind": "out",
+   "port": "INSERT PREFADE L",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "4",
+   "ref": "4",
+   "also": "D",
+   "same_row": null,
+   "signal": "INSERT PREFADE R -",
+   "kind": "out",
+   "port": "INSERT PREFADE R",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "5",
+   "ref": "5",
+   "also": "E",
+   "same_row": null,
+   "signal": "INSERT IN L -",
+   "kind": "insert_return",
+   "port": "INSERT IN L",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "6",
+   "ref": "6",
+   "also": "F",
+   "same_row": null,
+   "signal": "INSERT IN R -",
+   "kind": "insert_return",
+   "port": "INSERT IN R",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "7",
+   "ref": "7",
+   "also": "H",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "8",
+   "ref": "8",
+   "also": "J",
+   "same_row": null,
+   "signal": "L DIRECT -",
+   "kind": "out",
+   "port": "L DIRECT",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "9",
+   "ref": "9",
+   "also": "K",
+   "same_row": null,
+   "signal": "R DIRECT -",
+   "kind": "out",
+   "port": "R DIRECT",
+   "polarity": "-",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "10",
+   "ref": "10",
+   "also": "L",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "11",
+   "ref": "11",
+   "also": "M",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "12",
+   "ref": "12",
+   "also": "N",
+   "same_row": null,
+   "signal": "RD/NWR",
+   "kind": "control_in",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "13",
+   "ref": "13",
+   "also": "P",
+   "same_row": null,
+   "signal": "DATA BUS D0",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "14",
+   "ref": "14",
+   "also": "R",
+   "same_row": null,
+   "signal": "DATA BUS D2",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "15",
+   "ref": "15",
+   "also": "S",
+   "same_row": null,
+   "signal": "DATA BUS D4",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "16",
+   "ref": "16",
+   "also": "T",
+   "same_row": null,
+   "signal": "DATA BUS D6",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "17",
+   "ref": "17",
+   "also": "U",
+   "same_row": null,
+   "signal": "ATTENUATOR SENSE",
+   "kind": "other",
+   "port": "ATTENUATOR SENSE",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "18",
+   "ref": "18",
+   "also": "V",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "19",
+   "ref": "19",
+   "also": "W",
+   "same_row": null,
+   "signal": "-25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "20",
-   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
+   "ref": "20",
+   "also": "X",
+   "same_row": null,
+   "signal": "25 V COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M521A/MANUALS/1982 - M521A - p16.jpg",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P2",
+   "pin": "21",
+   "ref": "21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "+25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "22",
-   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
+   "ref": "22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "CHASSIS GROUND",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M521A/MANUALS/1982 - M521A - p16.jpg",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
   },
   {
-   "pin": "35",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M521A/SCHEMATICS/1982 - M521A - 521-02-002 - SOLO TALLY ATT SENSE.jpg",
-   "page": 1
+   "connector": "P2",
+   "pin": "A",
+   "ref": "A",
+   "also": "1",
+   "same_row": null,
+   "signal": "INSERT OUT L +",
+   "kind": "insert_send",
+   "port": "INSERT OUT L",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P2",
+   "pin": "B",
+   "ref": "B",
+   "also": "2",
+   "same_row": null,
+   "signal": "INSERT OUT R +",
+   "kind": "insert_send",
+   "port": "INSERT OUT R",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "C",
+   "ref": "C",
+   "also": "3",
+   "same_row": null,
+   "signal": "INSERT PREFADE L +",
+   "kind": "out",
+   "port": "INSERT PREFADE L",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "D",
+   "ref": "D",
+   "also": "4",
+   "same_row": null,
+   "signal": "INSERT PREFADE R +",
+   "kind": "out",
+   "port": "INSERT PREFADE R",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "E",
+   "ref": "E",
+   "also": "5",
+   "same_row": null,
+   "signal": "INSERT IN L +",
+   "kind": "insert_return",
+   "port": "INSERT IN L",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "F",
+   "ref": "F",
+   "also": "6",
+   "same_row": null,
+   "signal": "INSERT IN R +",
+   "kind": "insert_return",
+   "port": "INSERT IN R",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "H",
+   "ref": "H",
+   "also": "7",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "J",
+   "ref": "J",
+   "also": "8",
+   "same_row": null,
+   "signal": "L DIRECT +",
+   "kind": "out",
+   "port": "L DIRECT",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "K",
+   "ref": "K",
+   "also": "9",
+   "same_row": null,
+   "signal": "R DIRECT +",
+   "kind": "out",
+   "port": "R DIRECT",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "L",
+   "ref": "L",
+   "also": "10",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "M",
+   "ref": "M",
+   "also": "11",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "N",
+   "ref": "N",
+   "also": "12",
+   "same_row": null,
+   "signal": "NSEL (MODULE SELECT, ACTIVE LOW)",
+   "kind": "control_in",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "P",
+   "ref": "P",
+   "also": "13",
+   "same_row": null,
+   "signal": "DATA BUS D1",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "R",
+   "ref": "R",
+   "also": "14",
+   "same_row": null,
+   "signal": "DATA BUS D3",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "S",
+   "ref": "S",
+   "also": "15",
+   "same_row": null,
+   "signal": "DATA BUS D5",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "T",
+   "ref": "T",
+   "also": "16",
+   "same_row": null,
+   "signal": "DATA BUS D7",
+   "kind": "bus",
+   "port": "DATA BUS",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "U",
+   "ref": "U",
+   "also": "17",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "V",
+   "ref": "V",
+   "also": "18",
+   "same_row": null,
+   "signal": "CONTROL COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "W",
+   "ref": "W",
+   "also": "19",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "X",
-   "signal": "COMMON RETURN FOR THE +/-25 VOLT SUPPLIES",
-   "kind": "ground",
-   "pair": null,
+   "ref": "X",
+   "also": "20",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
    "polarity": null,
-   "confidence": "variant",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M521A/MANUALS/1982 - M521A - p16.jpg",
-   "page": 1
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "Y",
+   "ref": "Y",
+   "also": "21",
+   "same_row": null,
+   "signal": "+12 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "Z",
+   "ref": "Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M521/PINOUTS/1985 - M521 - Sterio Input Module Connector Layout.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "INSERT OUT L",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P2-A",
+    "-": "P2-1"
+   }
+  },
+  {
+   "name": "INSERT OUT R",
+   "dir": "insert_send",
+   "pins": {
+    "+": "P2-B",
+    "-": "P2-2"
+   }
+  },
+  {
+   "name": "INSERT PREFADE L",
+   "dir": "out",
+   "pins": {
+    "+": "P2-C",
+    "-": "P2-3"
+   }
+  },
+  {
+   "name": "INSERT PREFADE R",
+   "dir": "out",
+   "pins": {
+    "+": "P2-D",
+    "-": "P2-4"
+   }
+  },
+  {
+   "name": "INSERT IN L",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P2-E",
+    "-": "P2-5"
+   }
+  },
+  {
+   "name": "INSERT IN R",
+   "dir": "insert_return",
+   "pins": {
+    "+": "P2-F",
+    "-": "P2-6"
+   }
+  },
+  {
+   "name": "L DIRECT",
+   "dir": "out",
+   "pins": {
+    "+": "P2-J",
+    "-": "P2-8"
+   }
+  },
+  {
+   "name": "R DIRECT",
+   "dir": "out",
+   "pins": {
+    "+": "P2-K",
+    "-": "P2-9"
+   }
+  },
+  {
+   "name": "DATA BUS",
+   "dir": "bus",
+   "pins": {
+    "D0": "P2-13",
+    "D1": "P2-P",
+    "D2": "P2-14",
+    "D3": "P2-R",
+    "D4": "P2-15",
+    "D5": "P2-S",
+    "D6": "P2-16",
+    "D7": "P2-T",
+    "NSEL": "P2-N",
+    "RD/NWR": "P2-12"
+   }
+  },
+  {
+   "name": "ATTENUATOR SENSE",
+   "dir": "bidir",
+   "pins": {
+    "+": "P2-17"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "INSERT L",
+   "send": "INSERT OUT L",
+   "return": "INSERT IN L",
+   "normalled": null,
+   "note": "P2 A/1 out, E/5 in"
+  },
+  {
+   "name": "INSERT R",
+   "send": "INSERT OUT R",
+   "return": "INSERT IN R",
+   "normalled": null,
+   "note": "P2 B/2 out, F/6 in"
   }
  ],
  "straps": [],
- "power": [],
- "sources": [
-  "Modules/INPUT-PRE-AMPS/M521A/MANUALS/1982 - M521A - p16.jpg",
-  "Modules/INPUT-PRE-AMPS/M521A/SCHEMATICS/1982 - M521A - 521-02-002 - SOLO TALLY ATT SENSE.jpg"
+ "conflicts": [],
+ "to_check": [
+  {
+   "what": "polarity assumed",
+   "pin": null,
+   "detail": "16 contacts given + / − that the drawing does not mark (e.g. P2-A INSERT OUT L +) (M521: 1985 - M521 - Sterio Input Module Connector Layout.jpg)"
+  }
  ]
 }

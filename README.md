@@ -85,14 +85,60 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 
 ## RTO-144 pinout
 
-22 contacts, 35 contacts (P1). Read from the module's own documents (no RTO-144 sheet yet). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+**To check:**
+
+- polarity assumed: 16 contacts given + / − that the drawing does not mark (e.g. P2-A INSERT OUT L +) (M521: 1985 - M521 - Sterio Input Module Connector Layout.jpg)
+
+**Inserts:** INSERT L: INSERT OUT L → INSERT IN L · INSERT R: INSERT OUT R → INSERT IN R
+
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 20 | COMMON RETURN FOR THE +/-25 VOLT SUPPLIES | ground |  | variant |
-| 22 | COMMON RETURN FOR THE +/-25 VOLT SUPPLIES | ground |  | variant |
-| 35 |  | unread |  | variant |
-| X | COMMON RETURN FOR THE +/-25 VOLT SUPPLIES | ground |  | variant |
+| 1 | INSERT OUT L - | insert_send | INSERT OUT L - | medium |
+| 2 | INSERT OUT R - | insert_send | INSERT OUT R - | medium |
+| 3 | INSERT PREFADE L - | out | INSERT PREFADE L - | medium |
+| 4 | INSERT PREFADE R - | out | INSERT PREFADE R - | medium |
+| 5 | INSERT IN L - | insert_return | INSERT IN L - | medium |
+| 6 | INSERT IN R - | insert_return | INSERT IN R - | medium |
+| 7 | SHIELD | shield | shield | medium |
+| 8 | L DIRECT - | out | L DIRECT - | medium |
+| 9 | R DIRECT - | out | R DIRECT - | medium |
+| 10 | SHIELD | shield | shield | medium |
+| 11 | N/C | nc |  | medium |
+| 12 | RD/NWR | control_in | DATA BUS | medium |
+| 13 | DATA BUS D0 | bus | DATA BUS | medium |
+| 14 | DATA BUS D2 | bus | DATA BUS | medium |
+| 15 | DATA BUS D4 | bus | DATA BUS | medium |
+| 16 | DATA BUS D6 | bus | DATA BUS | medium |
+| 17 | ATTENUATOR SENSE | other | ATTENUATOR SENSE | medium |
+| 18 | N/C | nc |  | medium |
+| 19 | -25 V | power |  | medium |
+| 20 | 25 V COMMON | ground |  | medium |
+| 21 | +25 V | power |  | medium |
+| 22 | CHASSIS GROUND | ground |  | medium |
+| A | INSERT OUT L + | insert_send | INSERT OUT L + | medium |
+| B | INSERT OUT R + | insert_send | INSERT OUT R + | medium |
+| C | INSERT PREFADE L + | out | INSERT PREFADE L + | medium |
+| D | INSERT PREFADE R + | out | INSERT PREFADE R + | medium |
+| E | INSERT IN L + | insert_return | INSERT IN L + | medium |
+| F | INSERT IN R + | insert_return | INSERT IN R + | medium |
+| H | SHIELD | shield | shield | medium |
+| J | L DIRECT + | out | L DIRECT + | medium |
+| K | R DIRECT + | out | R DIRECT + | medium |
+| L | SHIELD | shield | shield | medium |
+| M | N/C | nc |  | medium |
+| N | NSEL (MODULE SELECT, ACTIVE LOW) | control_in | DATA BUS | medium |
+| P | DATA BUS D1 | bus | DATA BUS | medium |
+| R | DATA BUS D3 | bus | DATA BUS | medium |
+| S | DATA BUS D5 | bus | DATA BUS | medium |
+| T | DATA BUS D7 | bus | DATA BUS | medium |
+| U | N/C | nc |  | medium |
+| V | CONTROL COMMON | ground |  | medium |
+| W | N/C | nc |  | medium |
+| X | N/C | nc |  | medium |
+| Y | +12 V | power |  | medium |
+| Z | N/C | nc |  | medium |
 
 ## Manuals and documents
 

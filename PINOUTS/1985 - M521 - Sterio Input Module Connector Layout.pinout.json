@@ -1,0 +1,582 @@
+{
+  "schema": "wbs-pinout/1",
+  "picture": "1985 - M521 - Sterio Input Module Connector Layout.jpg",
+  "module": "M521",
+  "applies_to": [
+    "M521"
+  ],
+  "pinout": true,
+  "drawing": {
+    "number": null,
+    "title": "CONNECTOR LAYOUT M521 STEREO INPUT MODULE",
+    "date": null,
+    "issue": null,
+    "drawn": null
+  },
+  "connectors": [
+    {
+      "name": "P2",
+      "kind": "edge",
+      "contacts": 44,
+      "rows": "A-Z opposite 1-22",
+      "view": "bottom (handwritten: REVERSE IMAGE [BOTTOM VIEW])",
+      "part": null
+    }
+  ],
+  "pins": [
+    {
+      "connector": "P2",
+      "pin": "A",
+      "also": "1",
+      "as_drawn": "INSERT OUT L",
+      "signal": "INSERT OUT L +",
+      "kind": "insert_send",
+      "port": "INSERT OUT L",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "1",
+      "also": "A",
+      "as_drawn": "INSERT OUT L",
+      "signal": "INSERT OUT L -",
+      "kind": "insert_send",
+      "port": "INSERT OUT L",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "B",
+      "also": "2",
+      "as_drawn": "INSERT OUT R",
+      "signal": "INSERT OUT R +",
+      "kind": "insert_send",
+      "port": "INSERT OUT R",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "2",
+      "also": "B",
+      "as_drawn": "INSERT OUT R",
+      "signal": "INSERT OUT R -",
+      "kind": "insert_send",
+      "port": "INSERT OUT R",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "C",
+      "also": "3",
+      "as_drawn": "INSERT PREFADE L",
+      "signal": "INSERT PREFADE L +",
+      "kind": "out",
+      "port": "INSERT PREFADE L",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "3",
+      "also": "C",
+      "as_drawn": "INSERT PREFADE L",
+      "signal": "INSERT PREFADE L -",
+      "kind": "out",
+      "port": "INSERT PREFADE L",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "D",
+      "also": "4",
+      "as_drawn": "INSERT PREFADE R",
+      "signal": "INSERT PREFADE R +",
+      "kind": "out",
+      "port": "INSERT PREFADE R",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "4",
+      "also": "D",
+      "as_drawn": "INSERT PREFADE R",
+      "signal": "INSERT PREFADE R -",
+      "kind": "out",
+      "port": "INSERT PREFADE R",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "E",
+      "also": "5",
+      "as_drawn": "INSERT IN L",
+      "signal": "INSERT IN L +",
+      "kind": "insert_return",
+      "port": "INSERT IN L",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "5",
+      "also": "E",
+      "as_drawn": "INSERT IN L",
+      "signal": "INSERT IN L -",
+      "kind": "insert_return",
+      "port": "INSERT IN L",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "F",
+      "also": "6",
+      "as_drawn": "INSERT IN R",
+      "signal": "INSERT IN R +",
+      "kind": "insert_return",
+      "port": "INSERT IN R",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "6",
+      "also": "F",
+      "as_drawn": "INSERT IN R",
+      "signal": "INSERT IN R -",
+      "kind": "insert_return",
+      "port": "INSERT IN R",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "H",
+      "also": "7",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P2",
+      "pin": "7",
+      "also": "H",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P2",
+      "pin": "J",
+      "also": "8",
+      "as_drawn": "L DIRECT",
+      "signal": "L DIRECT +",
+      "kind": "out",
+      "port": "L DIRECT",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "8",
+      "also": "J",
+      "as_drawn": "L DIRECT",
+      "signal": "L DIRECT -",
+      "kind": "out",
+      "port": "L DIRECT",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "K",
+      "also": "9",
+      "as_drawn": "R DIRECT",
+      "signal": "R DIRECT +",
+      "kind": "out",
+      "port": "R DIRECT",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "9",
+      "also": "K",
+      "as_drawn": "R DIRECT",
+      "signal": "R DIRECT -",
+      "kind": "out",
+      "port": "R DIRECT",
+      "polarity": "-"
+    },
+    {
+      "connector": "P2",
+      "pin": "L",
+      "also": "10",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P2",
+      "pin": "10",
+      "also": "L",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P2",
+      "pin": "M",
+      "also": "11",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "11",
+      "also": "M",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "N",
+      "also": "12",
+      "as_drawn": "NSEL",
+      "signal": "NSEL (MODULE SELECT, ACTIVE LOW)",
+      "kind": "control_in",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "12",
+      "also": "N",
+      "as_drawn": "RD/NWR",
+      "signal": "RD/NWR",
+      "kind": "control_in",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "P",
+      "also": "13",
+      "as_drawn": "DATA BUS 1",
+      "signal": "DATA BUS D1",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "13",
+      "also": "P",
+      "as_drawn": "DATA BUS 0",
+      "signal": "DATA BUS D0",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "R",
+      "also": "14",
+      "as_drawn": "DATA BUS 3",
+      "signal": "DATA BUS D3",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "14",
+      "also": "R",
+      "as_drawn": "DATA BUS 2",
+      "signal": "DATA BUS D2",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "S",
+      "also": "15",
+      "as_drawn": "DATA BUS 5",
+      "signal": "DATA BUS D5",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "15",
+      "also": "S",
+      "as_drawn": "DATA BUS 4",
+      "signal": "DATA BUS D4",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "T",
+      "also": "16",
+      "as_drawn": "DATA BUS 7",
+      "signal": "DATA BUS D7",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "16",
+      "also": "T",
+      "as_drawn": "DATA BUS 6",
+      "signal": "DATA BUS D6",
+      "kind": "bus",
+      "port": "DATA BUS",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "U",
+      "also": "17",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "17",
+      "also": "U",
+      "as_drawn": "ATTENUATOR SENSE",
+      "signal": "ATTENUATOR SENSE",
+      "kind": "other",
+      "port": "ATTENUATOR SENSE",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "V",
+      "also": "18",
+      "as_drawn": "? CONTROL COM",
+      "signal": "CONTROL COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "18",
+      "also": "V",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "W",
+      "also": "19",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "19",
+      "also": "W",
+      "as_drawn": "-25V",
+      "signal": "-25 V",
+      "kind": "power",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "X",
+      "also": "20",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "20",
+      "also": "X",
+      "as_drawn": "25V COM",
+      "signal": "25 V COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "Y",
+      "also": "21",
+      "as_drawn": "? +12V",
+      "signal": "+12 V",
+      "kind": "power",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "21",
+      "also": "Y",
+      "as_drawn": "+25V",
+      "signal": "+25 V",
+      "kind": "power",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "Z",
+      "also": "22",
+      "as_drawn": "NC",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "22",
+      "also": "Z",
+      "as_drawn": "CHASSIS",
+      "signal": "CHASSIS GROUND",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    }
+  ],
+  "ports": [
+    {
+      "name": "INSERT OUT L",
+      "dir": "insert_send",
+      "pins": {
+        "+": "P2-A",
+        "-": "P2-1"
+      }
+    },
+    {
+      "name": "INSERT OUT R",
+      "dir": "insert_send",
+      "pins": {
+        "+": "P2-B",
+        "-": "P2-2"
+      }
+    },
+    {
+      "name": "INSERT PREFADE L",
+      "dir": "out",
+      "pins": {
+        "+": "P2-C",
+        "-": "P2-3"
+      }
+    },
+    {
+      "name": "INSERT PREFADE R",
+      "dir": "out",
+      "pins": {
+        "+": "P2-D",
+        "-": "P2-4"
+      }
+    },
+    {
+      "name": "INSERT IN L",
+      "dir": "insert_return",
+      "pins": {
+        "+": "P2-E",
+        "-": "P2-5"
+      }
+    },
+    {
+      "name": "INSERT IN R",
+      "dir": "insert_return",
+      "pins": {
+        "+": "P2-F",
+        "-": "P2-6"
+      }
+    },
+    {
+      "name": "L DIRECT",
+      "dir": "out",
+      "pins": {
+        "+": "P2-J",
+        "-": "P2-8"
+      }
+    },
+    {
+      "name": "R DIRECT",
+      "dir": "out",
+      "pins": {
+        "+": "P2-K",
+        "-": "P2-9"
+      }
+    },
+    {
+      "name": "DATA BUS",
+      "dir": "bus",
+      "pins": {
+        "D0": "P2-13",
+        "D1": "P2-P",
+        "D2": "P2-14",
+        "D3": "P2-R",
+        "D4": "P2-15",
+        "D5": "P2-S",
+        "D6": "P2-16",
+        "D7": "P2-T",
+        "NSEL": "P2-N",
+        "RD/NWR": "P2-12"
+      }
+    },
+    {
+      "name": "ATTENUATOR SENSE",
+      "dir": "bidir",
+      "pins": {
+        "+": "P2-17"
+      }
+    }
+  ],
+  "inserts": [
+    {
+      "name": "INSERT L",
+      "send": "INSERT OUT L",
+      "return": "INSERT IN L",
+      "normalled": null,
+      "note": "P2 A/1 out, E/5 in"
+    },
+    {
+      "name": "INSERT R",
+      "send": "INSERT OUT R",
+      "return": "INSERT IN R",
+      "normalled": null,
+      "note": "P2 B/2 out, F/6 in"
+    }
+  ],
+  "straps": [],
+  "unread": [
+    "Handwritten '?' beside CONTROL COM (V) and +12V (Y)",
+    "Purpose of INSERT PREFADE (C/3, D/4) not explained: recorded as outputs, may be a pre-fade insert send alternative",
+    "Which shield (H/7 or L/10) serves which signal not stated",
+    "Direction of ATTENUATOR SENSE not stated"
+  ],
+  "confidence": "medium",
+  "notes": "Manual page 6-2, faxed (header dated Nov 02 04, with a handwritten ATTN note). Labels drawn on both sides with L/R brackets: each L/R row is a balanced pair, letter side + and number side - by assumption (polarity not marked). Data bus bits: letter side 1,3,5,7 (P,R,S,T), number side 0,2,4,6 (13-16). File name says 1985; drawing has no date. LEGEND: NC NOT CONNECTED, IC INTERNALLY CONNECTED."
+}

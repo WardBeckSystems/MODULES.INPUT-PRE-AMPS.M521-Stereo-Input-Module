@@ -1,5 +1,5 @@
 # 19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2.jpg
-Wiki page: [M521](../../../../PAGES/M521.md)
+Wiki page: [M521](../)
 
 
 - **Year:** unknown (title block (read by eye))

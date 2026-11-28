@@ -1,5 +1,5 @@
 # 19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.jpg
-Wiki page: [M521](../../../../PAGES/M521.md)
+Wiki page: [M521](../)
 
 
 - **Year:** unknown (title block (read by eye))

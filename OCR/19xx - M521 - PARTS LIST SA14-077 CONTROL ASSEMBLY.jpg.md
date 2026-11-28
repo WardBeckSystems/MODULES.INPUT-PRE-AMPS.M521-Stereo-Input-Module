@@ -1,5 +1,5 @@
 # 19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg
-Wiki page: [M521](../../../../PAGES/M521.md)
+Wiki page: [M521](../)
 
 
 - **Year:** unknown (title block (read by eye))

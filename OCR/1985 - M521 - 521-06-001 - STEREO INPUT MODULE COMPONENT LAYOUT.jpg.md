@@ -1,5 +1,5 @@
 # 1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg
-Wiki page: [M521](../../../../PAGES/M521.md)
+Wiki page: [M521](../)
 
 
 - **Year:** 1985 (module estimate (manual_issue))

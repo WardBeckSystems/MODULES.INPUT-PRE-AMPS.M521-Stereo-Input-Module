@@ -4,13 +4,12 @@ Ward-Beck Systems M521, 1985|18. Wiki page: [M521 on WBSps.ca](https://wardbecks
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 41 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 12 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 8 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 59 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 2 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 11 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 40 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 11 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 7 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 58 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 10 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 71 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -62,6 +61,14 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKRWlYb3JZZl80bmM/view?resourcekey=0-iJTt91R6YMIzRCkyWaf-LA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKRWlYb3JZZl80bmM&resourcekey=0-iJTt91R6YMIzRCkyWaf-LA" width="240" alt="19xx - M521 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS.jpg"></a><br><sub>19xx - M521 - DOC - 2442-04-003 - SUB MASTER FADERS ADERS MONO IMPUT FADERS · <a href="MECHANICAL/19xx%20-%20M521%20-%20DOC%20-%202442-04-003%20-%20SUB%20MASTER%20FADERS%20ADERS%20MONO%20IMPUT%20FADERS%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKOGJWZVpMZ043bXc/view?resourcekey=0-xTNY3arikblyFWIodofGqw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKOGJWZVpMZ043bXc&resourcekey=0-xTNY3arikblyFWIodofGqw" width="240" alt="19xx - M521 - DOC - 521-04-001 - STEREO INPUT MODL.jpg"></a><br><sub>19xx - M521 - DOC - 521-04-001 - STEREO INPUT MODL · <a href="MECHANICAL/19xx%20-%20M521%20-%20DOC%20-%20521-04-001%20-%20STEREO%20INPUT%20MODL%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M521.stl`](MECHANICAL/M521.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M521)
+
+- **Size:** 41 × 360 mm panel, 165 mm deep, 3.2 mm plate (TECHNICAL DATA: 1.60" wide 14.15" high 6.50" deep (41 mm 360 mm 165 mm) Ibs oz (1.14 kg) net)
+- **From the drawing:** 21 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M521 - front panel.svg`)
+- Made by `tools/module_models.py` (→ `MECHANICAL/M521.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -71,9 +78,7 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKS1phOFdoSFdsTzA/view?resourcekey=0-L8BZq3DUPZ89VnMsxlnNAA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKS1phOFdoSFdsTzA&resourcekey=0-L8BZq3DUPZ89VnMsxlnNAA" width="240" alt="1985 - M521 - 521-02-001 - SYSTEMB TALLY ATT SENSE.jpg"></a><br><sub>1985|18 · 521-02-001 - SYSTEMB TALLY ATT SENSE · <a href="SCHEMATICS/1985%20-%20M521%20-%20521-02-001%20-%20SYSTEMB%20TALLY%20ATT%20SENSE%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKUUEyXy1WMVJ2WDA/view?resourcekey=0-AiFa6mi7hiL97gT7-5QfsQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKUUEyXy1WMVJ2WDA&resourcekey=0-AiFa6mi7hiL97gT7-5QfsQ" width="240" alt="1985 - M521 - 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT.jpg"></a><br><sub>1985|18 · 521-06-001 - STEREO INPUT MODULE COMPONENT LAYOUT · <a href="SCHEMATICS/1985%20-%20M521%20-%20521-06-001%20-%20STEREO%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Shared privately on Google Drive (opens after sign-in): [1985|18 · 020 - Functional](https://drive.google.com/file/d/0B0yR0b5T78SKQ0VIYzI4UVQzTE0/view?resourcekey=0-JSRdfZikcgvSXXPew1s2tQ) · [1985|18 · B 14-076-02-001 - SA14-076 STEREO CHANNEL AMPLIFIER - SCHEMATIC](https://drive.google.com/file/d/0B0yR0b5T78SKaFdpTnZnVDF2UW8/view?resourcekey=0-psXB2oMsQyaeyqKf6JU6-w)
-
-Not on Google Drive yet: `19xx - 521-01-001 - STEREO INPUT MODULE FUNCTIONAL - ISS 2.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.jpg`, `19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC.jpg`
+Shared privately on Google Drive (opens after sign-in): [1985|18 · 020 - Functional](https://drive.google.com/file/d/0B0yR0b5T78SKQ0VIYzI4UVQzTE0/view?resourcekey=0-JSRdfZikcgvSXXPew1s2tQ)
 
 ## Pinouts
 
@@ -167,8 +172,6 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 
 Shared privately on Google Drive (opens after sign-in): [1985|18 · 017](https://drive.google.com/file/d/0B0yR0b5T78SKblZUeGRWcDZCMkU/view?resourcekey=0-35OSpf1XpzkZFJwsFJKyZg) · [1985|18 · 021](https://drive.google.com/file/d/0B0yR0b5T78SKOFgyb2JZclMwX1E/view?resourcekey=0-M95AtlcQ5xgNiyql58Hjnw) · [1985|18 · 028](https://drive.google.com/file/d/0B0yR0b5T78SKNURER0pNbkdwX3c/view?resourcekey=0-vbtJuMmoP29To5kDCqXeGA)
 
-Not on Google Drive yet: `19xx - M521 - PARTS LIST SA14-077 CONTROL ASSEMBLY.jpg`, `M521 - 001.jpg`
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
@@ -183,7 +186,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC - ISS 3.kicad_sch](KICAD/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC%20-%20ISS%203.kicad_sch)
 - [19xx - 521-02-001 - STEREO INPUT MODULE SCHEMATIC.kicad_sch](KICAD/19xx%20-%20521-02-001%20-%20STEREO%20INPUT%20MODULE%20SCHEMATIC.kicad_sch)
 - [M521.kicad_sym](KICAD/M521.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
